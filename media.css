@@ -1,0 +1,206 @@
+@media (max-width: 768px) {
+
+  .container,
+  .container-services,
+  .container-team {
+    padding: 40px 16px;
+  }
+
+  .flex {
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .main-nav {
+    padding: 20px 16px;
+    gap: 20px;
+  }
+
+  .nav-link ul {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .nav-link a {
+    margin-right: 0;
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .hero-img {
+    margin-top: 0;
+    height: auto;
+  }
+
+  .hero-content {
+    margin-top: 0;
+    padding: 60px 16px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    line-height: 1.3;
+  }
+
+  .hero-content p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .header-btn {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 0;
+  }
+
+  .header-btn a {
+    margin-left: 0;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .left-right {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .left-about {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-about img {
+    width: 100%;
+    max-width: 320px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .img1 {
+    width: 100%;
+    height: 220px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .testi-img {
+    height: auto;
+    background-size: cover;
+  }
+
+  .testi-content {
+    margin-top: 60px;
+  }
+
+  .testi-content p {
+    width: 100%;
+    font-size: 15px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .services-features {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .services-card {
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .img-team {
+    flex-direction: column;
+  }
+
+  .aligin-center {
+    width: 100%;
+    height: 260px;
+    background-size: cover;
+  }
+
+  .team-img {
+    margin-top: 180px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .team-vedio {
+    height: auto;
+    padding: 100px 0;
+    background-size: cover;
+  }
+
+  .vedio-icon {
+    margin-top: 0;
+  }
+
+  .team-para {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .cover {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .box {
+    width: 100%;
+  }
+
+  .box-img {
+    width: 100%;
+    height: auto;
+  }
+
+}
+
+@media (max-width: 768px) {
+
+  .whole-details {
+    padding: 0;
+  }
+
+  .width-1-2,
+  .width-1-3,
+  .width-1-4 {
+    max-width: 100%;
+    flex-basis: 100%;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 12px;
+  }
+
+}
+
