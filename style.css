@@ -15,6 +15,48 @@
     z-index: -1;
 }
 
+/* Mobile Coming Soon Screen */
+#mobile-blocker {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: #020617;
+    color: white;
+    z-index: 9999;
+    text-align: center;
+    padding: 40px;
+}
+
+#mobile-blocker h1 {
+    font-size: 2rem;
+    margin-bottom: 12px;
+    color: #fbbf24;
+}
+
+#mobile-blocker p {
+    font-size: 1rem;
+    color: #9ca3af;
+}
+
+/* Mobile Detection */
+@media (max-width: 768px) {
+    #project-wrapper {
+        display: none;
+    }
+
+    #mobile-blocker {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    body {
+        overflow: hidden;
+    }
+}
+
+
 /* utility */
 
 .container{
